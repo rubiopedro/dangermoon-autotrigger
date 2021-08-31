@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
 import Web3 from 'web3';
 import ethers from 'ethers';
-import abi_pcs from './pcsAbi.json'
-import abi_link from './linkAbi.json'
-import abi_pgs from './pgsAbi.json'
-import abi_plink from './plinkAbi.json'
+import abi_pcs from './abis/pcsAbi.json'
+import abi_link from './abis/linkAbi.json'
+import abi_pgs from './abis/pgsAbi.json'
+import abi_plink from './abis/plinkAbi.json'
 
 dotenv.config();
 
