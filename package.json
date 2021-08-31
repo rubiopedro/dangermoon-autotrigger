@@ -1,0 +1,17 @@
+{
+  "name": "dangermoon-autotrigger",
+  "version": "1.0.0",
+  "description": "Convert bnb to link then trigger DangerMoon prize pool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js"
+  },
+  "type": "module",
+  "author": "rubiopedro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.2.0",
+    "web3": "^1.5.2"
+  }
+}
